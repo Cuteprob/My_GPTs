@@ -1,6 +1,4 @@
-![GPTsURL](https://github.com/CH563/gtps-url/blob/main/public/logo.png)
 
-[👉掘金文章](https://juejin.cn/post/7303386068606648359)
 
 # GPTs URL
 
@@ -10,13 +8,6 @@ Discover the GPTs Store by OpenAI | GPTsURL - Share and search GPTs url to use C
 
 ## 🚀 Project Structure
 
-🍿 Live preview: [https://www.gptsurl.com](https://www.gptsurl.com)
-
-![GPTsURL](https://github.com/CH563/gtps-url/blob/main/public/image-white.png)
-
-[PageSpeed Insights](https://pagespeed.web.dev/analysis/https-gptsurl-com/hnkd6k6hly?hl=en_US&form_factor=desktop)
-
-![PageSpeed](https://github.com/CH563/gtps-url/blob/main/page-speed.png)
 
 You'll see the following folders and files:
 
@@ -45,11 +36,7 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 ## Quick start
 
-Clone project
 
- ```bash
- git clone https://github.com/CH563/gtps-url.git
- ```
 
 ### Prepare data
 
@@ -100,11 +87,6 @@ CREATE TABLE "public"."list_categories" (
 );
 ```
 
-#### Get the GPTs data of zip into your postgres database, Is include 6,876 GPTs
-
-`Data from "site:chat.openai.com/g/ {keyword|category}"`
-
-[Download](https://github.com/CH563/gtps-url/releases/tag/v1.0.0)
 
 
 ### Running Locally
@@ -156,7 +138,4 @@ All commands are run from the root of the project, from a terminal:
 
 inspired credit to [GPTsHunter](https://www.GPTsHunter.com), [AllGPTs](https://allgpts.co/)
 
-### Else if this project is helpful to you, buy me a coffee😄
-
-<a href="https://www.buymeacoffee.com/liwen563" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 117px !important;" ></a>
 # My_GPTs
