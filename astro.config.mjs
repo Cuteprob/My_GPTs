@@ -2,7 +2,8 @@ import { defineConfig } from 'astro/config';
 import vercel from "@astrojs/vercel/serverless";
 import tailwind from "@astrojs/tailwind";
 
-const site = "https://wwww.mygpts.site";
+
+const site = "https://www.mygpts.site";
 
 // https://astro.build/config
 export default defineConfig({
