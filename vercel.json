@@ -3,7 +3,10 @@
     "builds": [
       {
         "src": "astro.config.mjs",
-        "use": "@astrojs/vercel"
+        "use": "@astrojs/vercel",
+        "config": {
+        "runtime": "nodejs18.x"
+      }
       }
     ],
     "routes": [
