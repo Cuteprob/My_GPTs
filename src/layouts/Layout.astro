@@ -12,8 +12,8 @@ const resolvedImageWithDomain = `${Astro.url.origin}/image.png`;
 
 const { title, description } = Astro.props;
 
-const showTitle = title ? `${title} in GPTs Store` : 'Discover the GPTs Store by OpenAI | GPTsURL - Share and search GPTs url to use ChatGPT';
-const showDesc = description || 'GPTsURL is the first and biggest GPTs directory. With GPTsUrl, you can share and discover the best GPTs in ChatGPT Store';
+const showTitle = title ? `${title} in GPTs Store` : 'Discover the GPTs Store by OpenAI | My GPTs - Share and search My GPTs to use ChatGPT';
+const showDesc = description || 'My GPTs is the first and biggest GPTs directory. With My GPTs, you can share and discover the best GPTs in ChatGPT Store';
 ---
 
 <!doctype html>
@@ -44,7 +44,7 @@ const showDesc = description || 'GPTsURL is the first and biggest GPTs directory
                 creator: '@LiWen563',
                 site: '@LiWen563',
                 card: 'summary_large_image',
-                imageAlt: 'GPTs URL',
+                imageAlt: 'My GPTs',
                 description: showDesc,
                 image: resolvedImageWithDomain,
             }}
@@ -57,7 +57,7 @@ const showDesc = description || 'GPTsURL is the first and biggest GPTs directory
                 },
                 image: {
                     url: resolvedImageWithDomain,
-                    alt: 'GPTs URL',
+                    alt: 'My GPTs',
                 },
             }}
         />
