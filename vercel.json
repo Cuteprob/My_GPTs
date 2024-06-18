@@ -1,19 +1,15 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "astro.config.mjs",
-        "use": "@astrojs/vercel",
-        "config": {
-        "runtime": "nodejs18.x"
-      }
-      }
-    ],
-    "routes": [
+  "version": 2,
+  "builds": [
+    {
+      "src": "astro.config.mjs",
+      "use": "@astrojs/vercel"
+    }
+  ],
+  "routes": [
     {
       "src": "/(.*)",
       "dest": "/index.astro"
     }
   ]
-  }
-  
+}
