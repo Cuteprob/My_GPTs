@@ -7,8 +7,7 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "vercel-build": "pnpm install && pnpm build"
+    "astro": "astro"
   },
   "engines": {
     "node": ">=18.0.0"
