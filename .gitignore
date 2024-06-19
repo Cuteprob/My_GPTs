@@ -22,4 +22,4 @@ pnpm-debug.log*
 .DS_Store
 
 # example to run
-example
+example.vercel
